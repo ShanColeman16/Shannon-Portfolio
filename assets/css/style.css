@@ -2,7 +2,9 @@ body {
   background-color: white;
 
 }
-
+.header {
+  justify-content: flex-start;
+}
 
 header {
   display: inline-flex;
@@ -12,13 +14,20 @@ header {
 }
 
 nav {
-  display: inline-flex; wrap;
+  display: inline-flex;   
   width: 100%;
   justify-content: space-between;
-  padding: 20px
- 
+  padding: 10px
 }
 
-h1{
-  display: inline-block;
+aside {
+  padding: 20px
+}
+
+footer {
+  padding: 20px
+}
+
+li {
+  padding: 5px
 }
