@@ -1,21 +1,22 @@
 /* Universal Selector */
 * {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Element Selectors select all of that element type */
 body {
-  background-color: lemonchiffon;
+  background-color: forestgreen;
 }
 
-section {
-  height: 200px;
-  width: 300px;
+section class id about{
+  height: 20px;
+  width: 30px;
 }
 
 p {
-  font-size: 60px;
-  line-height: 200px;
+  font-size: 20px;
+  line-height: 30px;
+  flex-wrap: wrap;
 }
 
 /* Class Selectors select all elements with that class */
