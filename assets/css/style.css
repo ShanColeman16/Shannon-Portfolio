@@ -3,20 +3,22 @@ body {
 
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
 
 header {
   display: inline-flex;
   width: 100%;
   justify-content: space-between;
+  padding: 20px
 }
 
 nav {
-  display: flex;
+  display: inline-flex; wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px
  
+}
 
-
+h1{
+  display: inline-block;
 }
