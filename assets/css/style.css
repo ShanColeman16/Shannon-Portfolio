@@ -1,8 +1,16 @@
 body {
-  background-color: blanchedalmond;
-}
+  background-color: white;
   
-.container{
+}
+
+.container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.container > section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
 }
